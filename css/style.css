@@ -1,0 +1,40 @@
+/*variables de diseño:fuentes
+colores y recurso*/
+:root{
+    /*Fuentes*/
+    --titulos:'Lato',sans-serif;
+    --textos:'Roboto', sans-serif;
+
+    /*Colores*/
+    --fondo:#fff;
+    --header:rgba(41,36,36,0.6);
+    --Footer:#000;
+}
+
+/*configuracion global*/
+*{
+    box-sizing: border-box;
+}
+
+/*body o cuerpo
+se utiliza selector de etiqueta
+*/
+
+body{
+    font-family: var(--textos);
+    font-size: 1.2rem;  
+    
+}
+
+
+h1{
+    font-family: var(--titulos);
+    font-size: 3.8rem;
+    font-weight:bold;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
